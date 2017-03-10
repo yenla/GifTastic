@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Overseer';
+  src: url('../font/Overseer.otf') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'FSEX300';
+  src: url('../font/FSEX300.ttf') format('truetype');
+}
+
+body {
+	/*background: url(../images/BG06.png) no-repeat center center fixed;*/
+	background-size: cover;
+	font-family: garamond;
+}
+
+.header {
+	margin-left: 20px;
+}
+
+h2 {
+	font-family: garamond;
+	font-size: 35px;
+	color: #1b92fa;
+}
+
+
+p {
+	font-size: 20px;
+	line-height: 15px;
+	margin-top: 8px;
+	color: #0f742c;
+}
+
+.character {
+	height: 180px;
+	width: 180px;
+}
+
+.character_all {
+	font-family: 'FSEX300';
+	display: inline-block;
+	height: 200px
+	width: 200px;
+	/*border: solid 5px #20f55b;*/
+	margin: 10px;
+}
+
+#survivorHP {
+	color: #20f55b;
+}
+
+#ghoulHP {
+	color: #20f55b;
+}
+
+#deathclawHP {
+	color: #20f55b;
+}
+
+#mutantHP {
+	color: #20f55b;
+}
+
+#instruction_section {
+	border: 5px solid #0f742c;
+	margin-left: 35px;
+}
+
+#instruction {
+	color:#fff;
+}
+
+#main_section {
+	margin-left: 20px;
+}
+
+#attack {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color:#fff;
+	width: 100px;
+	height: 50px;
+	/*display: none;*/
+
+}
+
+.enemy_all {
+	font-family: 'FSEX300';
+	display: inline-block;
+	height: 200px
+	width: 200px;
+	margin: 10px;
+}
+
+#play-again{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	width: 140px;
+	height: 40px;
+	/*display: none;*/
+}
