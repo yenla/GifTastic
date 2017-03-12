@@ -1,21 +1,12 @@
-@font-face {
-  font-family: 'Overseer';
-  src: url('../font/Overseer.otf') format('embedded-opentype');
-}
-
-@font-face {
-  font-family: 'FSEX300';
-  src: url('../font/FSEX300.ttf') format('truetype');
-}
-
 body {
-	/*background: url(../images/BG06.png) no-repeat center center fixed;*/
-	background-size: cover;
+	background: url(../images/Sports.png) 0 0;
 	font-family: garamond;
 }
 
-.header {
-	margin-left: 20px;
+.title {
+	margin: 15px 0 10px 0;
+	font-size: 18px;
+	font-family: helvetica;
 }
 
 h2 {
@@ -24,80 +15,33 @@ h2 {
 	color: #1b92fa;
 }
 
-
 p {
 	font-size: 20px;
 	line-height: 15px;
-	margin-top: 8px;
-	color: #0f742c;
+	margin: 15px 0 10px 0;
+	color: #329eff;
 }
 
-.character {
-	height: 180px;
-	width: 180px;
+.sport {
+	margin: 10px 5px;
+	padding: 5px;
+	background: #fff;
+	color:#2993e4;
+
+	background-color: transparent;
+	border-radius: 5px;
 }
 
-.character_all {
-	font-family: 'FSEX300';
-	display: inline-block;
-	height: 200px
-	width: 200px;
-	/*border: solid 5px #20f55b;*/
-	margin: 10px;
+#sport-form {
+	margin-top: 10px;
 }
 
-#survivorHP {
-	color: #20f55b;
-}
-
-#ghoulHP {
-	color: #20f55b;
-}
-
-#deathclawHP {
-	color: #20f55b;
-}
-
-#mutantHP {
-	color: #20f55b;
-}
-
-#instruction_section {
-	border: 5px solid #0f742c;
-	margin-left: 35px;
-}
-
-#instruction {
+#add-sport {
+	margin-top: 15px;
+	background: #329eff;
 	color:#fff;
 }
 
-#main_section {
-	margin-left: 20px;
-}
-
-#attack {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color:#fff;
-	width: 100px;
-	height: 50px;
-	/*display: none;*/
-
-}
-
-.enemy_all {
-	font-family: 'FSEX300';
-	display: inline-block;
-	height: 200px
-	width: 200px;
-	margin: 10px;
-}
-
-#play-again{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color: white;
-	width: 140px;
-	height: 40px;
-	/*display: none;*/
-}
+#sport-input {
+	background: #ace2ff;
+};
