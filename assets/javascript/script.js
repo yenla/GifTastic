@@ -1,4 +1,5 @@
-var topics = ["Surfing", "Skate Boarding", "Wakeboarding", "Snow Boarding", "Skiing", "Soccer", "Football", "BMX", "Basketball", "Kayak"];
+var topics = ["Surfing", "Skate Boarding", "Wakeboarding", "Snow Boarding", "Skiing", 
+"Soccer", "Football", "BMX", "Basketball", "Kayak", "Gymnastics", "Swimming", "Fencing", "Judo", "Diving"];
   
 function displaySport() {
 
@@ -26,7 +27,7 @@ function displaySport() {
             $(this).attr("data-state", "animate");
           }
 
-          if (state === "animate") {
+         else {
             $(this).attr("src", $(this).attr("data-still"));
             $(this).attr("data-state", "still");
           }
@@ -47,7 +48,7 @@ function displaySport() {
 
         sportDiv.prepend(p);
 
-        $("#sports-div").append(sportDiv);
+        $("#sports-div").prepend(sportDiv);
       }
 
     });
@@ -58,12 +59,12 @@ function renderButtons() {
   $("#buttons").empty();
   
   for (var i = 0; i < topics.length; i++) {
-    var a = $("<button>");
-    a.addClass("sport");
-    a.attr("data-name", topics[i]);
-    a.text(topics[i]);
+    var s = $("<button>");
+    s.addClass("sport");
+    s.attr("data-name", topics[i]);
+    s.text(topics[i]);
 
-    $("#buttons").append(a);
+    $("#buttons").append(s);
 
   }
 }
