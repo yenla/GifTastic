@@ -21,16 +21,15 @@ For example:
 
 	function displaySport() {
 
-    var sport = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
-      sport + "&api_key=dc6zaTOxFJmzC&limit=10";
+	    var sport = $(this).attr("data-name");
+	    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+	      sport + "&api_key=dc6zaTOxFJmzC&limit=10";
 
-    $.ajax({
-    url: queryURL,
-    method: "GET"
-    }).done(function(response) {
+	    $.ajax({
+	    url: queryURL,
+	    method: "GET"
+	    }).done(function(response) {
 
-    console.log(response);
-    var results = response.data;
-
-  });
+	    console.log(response);
+	    var results = response.data;
+	});
