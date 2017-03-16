@@ -11,7 +11,7 @@ https://yenla.github.io/GifTastic/
 
 Summary
 
-• This homework assignment require me to use ajax to pull information from an API URL, I chose the sport category to generate gif images about sport. It was a fun assignment because I got to learn how to pause and un-pause the gif images, which I thought wasn't possible on a web browser. 
+• This homework assignment require me to use ajax to pull information from an API URL, I chose the sport category to generate gif images about sport. It was a fun assignment because I got to learn how to pause and un-pause the gif images, which I thought was impossible to do on a web browser. 
 
 Code Explaination
 
