@@ -4,7 +4,7 @@ var topics = ["Surfing", "Skate Boarding", "Wakeboarding", "Snow Boarding", "Ski
 function displaySport() {
 
     var sport = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       sport + "&api_key=dc6zaTOxFJmzC&limit=10";
 
     $.ajax({
